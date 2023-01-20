@@ -2,7 +2,7 @@
 
 Тестовое задани. Создание приложение по макету(макет был приложен к заданию).
 
-GitHub Pages <a href=" https://prostobronik.github.io/Test-task-for-FunBox-/">`Ссылка на сайт`</a>
+GitHub Pages <a href="https://prostobronik.github.io/Test-task-for-FunBox-/">`Ссылка на сайт`</a>
 
 Task Requirements
 
