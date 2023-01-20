@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Test-task-for-FunBox-/static/css/main.08ba5fcc.css",
-    "main.js": "/Test-task-for-FunBox-/static/js/main.2d9d6f6f.js",
+    "main.css": "/Test-task-for-FunBox-/static/css/main.4b7c1bd8.css",
+    "main.js": "/Test-task-for-FunBox-/static/js/main.d1587d39.js",
     "static/media/Photo.svg": "/Test-task-for-FunBox-/static/media/Photo.d3656095a51c1af7b6fff7b01518a648.svg",
-    "static/media/Pattern.png": "/Test-task-for-FunBox-/static/media/Pattern.a66ecb562e0f836dd03a.png",
+    "static/media/patern.png": "/Test-task-for-FunBox-/static/media/patern.12fadeaf57ac4a51c51f.png",
     "index.html": "/Test-task-for-FunBox-/index.html",
-    "main.08ba5fcc.css.map": "/Test-task-for-FunBox-/static/css/main.08ba5fcc.css.map",
-    "main.2d9d6f6f.js.map": "/Test-task-for-FunBox-/static/js/main.2d9d6f6f.js.map"
+    "main.4b7c1bd8.css.map": "/Test-task-for-FunBox-/static/css/main.4b7c1bd8.css.map",
+    "main.d1587d39.js.map": "/Test-task-for-FunBox-/static/js/main.d1587d39.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ba5fcc.css",
-    "static/js/main.2d9d6f6f.js"
+    "static/css/main.4b7c1bd8.css",
+    "static/js/main.d1587d39.js"
   ]
 }
