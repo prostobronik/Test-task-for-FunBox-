@@ -17,6 +17,10 @@
    border-radius: 10px;
 
 }
+.parentCat:hover {
+   background-color: #2ea8e6;
+}
+
 
 .cat {
    display: flex;
@@ -86,6 +90,10 @@
 
 .cardActiv {
    background-color: #D91667;
+}
+
+.cardActiv:hover {
+   background-color: #e62e7a;
 }
 
 .footerAbsence {

@@ -1,5 +1,5 @@
 import Card from './components/Card'
-import background from './assets/Pattern.png'
+import background from './assets/patern.png'
 
 const DATA_CATS = [
   {
