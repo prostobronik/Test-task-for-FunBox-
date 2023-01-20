@@ -1,0 +1,16 @@
+.footer {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.cardFooter{
+   color: #FFFFFF;
+   font-size: 11px;
+}
+.spanFooter{
+   color: #1698D9;
+   font-size: 11px;
+   border-bottom:1px dashed #1698D9;
+   cursor: pointer;
+}

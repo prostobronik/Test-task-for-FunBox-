@@ -1,0 +1,31 @@
+.card {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-flow: row wrap; 
+   height: 100vh;
+}
+
+
+.cardTitle {
+   width: 100%;
+   height: 48px;
+   text-align: center; 
+   font-family: 'Exo 2', sans-serif;
+   font-size: 36px;
+   color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+   .card{
+      height: 100%;
+   }
+}
+@media only screen and (max-width: 450px) {
+   .title{
+      margin-bottom: 50px;
+   }
+}
+

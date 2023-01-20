@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from './components/Card'
+import background from './assets/Pattern.png'
+
+const DATA_CATS = [
+  {
+    id: '1',
+    name: 'Нямушка',
+    additive: 'фуа-гра',
+    number: 8,
+    portions: '10',
+    mouse: '1',
+    weight: '0,5',
+    description: 'Печень утки разварная с артишоками.',
+  },
+  {
+    id: '2',
+    name: 'Нямушка',
+    additive: 'рыбой ',
+    number: 3,
+    portions: '40',
+    mouse: '2',
+    weight: '2',
+    description: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+  },
+  {
+    id: '3',
+    name: 'Нямушка',
+    additive: 'курой',
+    number: 0,
+    portions: '100',
+    mouse: '5',
+    weight: '5',
+    description: 'Филе из цыплят с трюфелями в бульоне.',
+  },
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+      }}
+    >
+      <Card data={DATA_CATS} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

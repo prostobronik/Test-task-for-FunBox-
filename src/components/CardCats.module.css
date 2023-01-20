@@ -1,0 +1,103 @@
+.card {
+   width: 320px;
+   height: 509px;
+   font-family: 'Trebuchet MS';
+   margin-bottom: 20px;
+}
+
+.parentCat {
+   width: 328px;
+   height: 488px;
+   background-color: #1698D9;
+   -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 30% 0%,0% 10%);
+   clip-path: polygon(1% 100%,  100% 100%, 100% 0%, 15% 0%,0% 10%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+
+}
+
+.cat {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   overflow: hidden;
+   width: 320px;
+   height: 480px;
+   background-color: #F2F2F2;
+   border-radius: 10px;
+      -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 30% 0%,0% 10%);
+      clip-path: polygon(1% 100%,  100% 100%, 100% 0%, 15% 0%,0% 10%);
+
+}
+
+.cat img {
+ position: absolute;
+ top:45%;
+ right:-6%;
+}
+
+.oval {
+   position: absolute;
+   bottom: 2%;
+   right: 2%;
+   text-align: center;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   background-color: #1698D9;
+}
+
+.oval {
+   color: #FFFFFF;
+}
+.oval span{
+   font-size: 42px;
+}
+.oval p{
+   font-size: 21px;
+}
+
+.description{
+   margin-top: 21px;
+}
+
+.description span{
+   font-size: 16px;
+   font-weight: 100;
+   color: #666666;
+}
+.name {
+   font-size: 48px;
+   font-weight: bold;
+   color: #000000;
+}
+.additive{
+   font-size: 24px;
+   font-weight: bold;
+   color: #000000;
+   margin-bottom: 15px;
+}
+.portion{
+   font-size: 14px;
+   color: #666666;
+}
+
+.cardActiv {
+   background-color: #D91667;
+}
+
+.footerAbsence {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   font-size: 11px;
+   color: #FFFF66;
+}
+
+.cartAbsence {
+   -webkit-filter: grayscale(1); 
+        filter: gray; 
+        filter: grayscale(1); 
+}
